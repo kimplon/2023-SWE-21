@@ -1,0 +1,23 @@
+[YBK1] Thu May 11 18:26:58 2023 +0900 최종 검증 e43c02e
+[YBK1] Thu May 11 18:16:19 2023 +0900 클래스 다이어그램 합본 148af96
+[김동하] Thu May 11 15:32:22 2023 +0900 Merge pull request #7 from pupukii/main 51dd16a
+[pupukii] Thu May 11 15:29:31 2023 +0900 Create alanalsys class diagram_wj.mdj e669cc0
+[pupukii] Thu May 11 15:27:12 2023 +0900 Create Communication_Woojoo.mdj f9131ac
+[kimplon] Thu May 11 15:19:35 2023 +0900 Create Analysis_김동하.mdj 9c220a0
+[김동하] Thu May 11 15:18:08 2023 +0900 Merge pull request #5 from YBK1/main d34e8c0
+[YBK1] Thu May 11 15:17:23 2023 +0900 오타수정 24925ad
+[김동하] Thu May 11 15:15:44 2023 +0900 Merge pull request #4 from YBK1/main 4c97671
+[YBK1] Thu May 11 15:09:49 2023 +0900 자잘한 수정 abc5516
+[YBK1] Thu May 11 12:02:25 2023 +0900 UserSubsystem ClassDiagram fbb1952
+[김동하] Wed May 10 22:23:33 2023 +0900 Merge pull request #3 from YBK1/main 08bd991
+[YBK1] Wed May 10 22:18:07 2023 +0900 CommunicationDiagram commit 3b9a6a3
+[kimplon] Wed May 10 18:10:16 2023 +0900 Merge branch 'main' of https://github.com/kimplon/2023-SWE-21 96f7676
+[kimplon] Wed May 10 18:10:04 2023 +0900 Create communication_김동하.mdj fe243a3
+[김동하] Wed May 10 18:07:10 2023 +0900 Merge pull request #2 from pupukii/main 65f1a5e
+[김동하] Wed May 10 18:06:07 2023 +0900 Merge pull request #1 from YBK1/main a143158
+[pupukii] Wed May 10 18:05:14 2023 +0900 Create Communication_Woojoo.mdj 518bb62
+[YBK1] Wed May 10 17:59:07 2023 +0900 communication user bfc858a
+[pupukii] Wed May 10 17:51:41 2023 +0900 Merge pull request #1 from kimplon/main 6f31b92
+[YBK1] Wed May 10 17:50:53 2023 +0900 Merge pull request #1 from kimplon/main 0e0b5ba
+[kimplon] Wed May 10 17:49:50 2023 +0900 initial commit 16d3bf7
+[김동하] Wed May 10 17:41:27 2023 +0900 Initial commit a7f7918

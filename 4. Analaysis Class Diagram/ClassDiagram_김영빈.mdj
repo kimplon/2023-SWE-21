@@ -323,7 +323,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 144,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -521,7 +521,7 @@
 											"top": 116,
 											"width": 174,
 											"height": 13,
-											"text": "User"
+											"text": "Member"
 										},
 										{
 											"_type": "LabelView",
@@ -533,7 +533,7 @@
 											"font": "Arial;13;0",
 											"left": 1664,
 											"top": -464,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -816,7 +816,7 @@
 											"font": "Arial;13;0",
 											"left": 832,
 											"top": 256,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -1081,7 +1081,7 @@
 											"font": "Arial;13;0",
 											"left": 912,
 											"top": -96,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -1480,7 +1480,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -1704,7 +1704,7 @@
 											"font": "Arial;13;0",
 											"left": -240,
 											"top": -48,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -1916,7 +1916,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -16,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -2142,7 +2142,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 32,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -2363,9 +2363,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 347,
+									"left": 346,
 									"top": 83,
-									"width": 14.82177734375,
+									"width": 16.26904296875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2429,9 +2429,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 414,
+									"left": 413,
 									"top": 83,
-									"width": 14.82177734375,
+									"width": 16.26904296875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3288,7 +3288,7 @@
 									"font": "Arial;13;0",
 									"left": 1038,
 									"top": 162,
-									"width": 5.05908203125,
+									"width": 5.5224609375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3560,7 +3560,7 @@
 									"font": "Arial;13;0",
 									"left": 1042,
 									"top": 198,
-									"width": 5.05908203125,
+									"width": 5.5224609375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3832,7 +3832,7 @@
 									"font": "Arial;13;0",
 									"left": 1048,
 									"top": 236,
-									"width": 5.05908203125,
+									"width": 5.5224609375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -4059,7 +4059,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGICA45mWQOMZM="
 					},
-					"name": "User",
+					"name": "Member",
 					"stereotype": "Entity",
 					"attributes": [
 						{

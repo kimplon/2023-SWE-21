@@ -173,6 +173,7 @@
 										},
 										{
 											"_type": "UMLOperationView",
+<<<<<<< HEAD
 											"_id": "AAAAAAGICI7y42WhCs0=",
 											"_parent": {
 												"$ref": "AAAAAAGICCXGW2Qcjqo="
@@ -191,6 +192,8 @@
 										},
 										{
 											"_type": "UMLOperationView",
+=======
+>>>>>>> SEManager/main
 											"_id": "AAAAAAGICJZQNmWoXss=",
 											"_parent": {
 												"$ref": "AAAAAAGICCXGW2Qcjqo="
@@ -5705,35 +5708,6 @@
 								}
 							],
 							"specification": "\n"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGICI7y3GWe5M0=",
-							"_parent": {
-								"$ref": "AAAAAAGICCXGWmQTu+8="
-							},
-							"name": "enterId",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGIMxfW+SMxmpg=",
-									"_parent": {
-										"$ref": "AAAAAAGICI7y3GWe5M0="
-									},
-									"name": "userId",
-									"type": "String"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGIMxjQRyQyLZo=",
-									"_parent": {
-										"$ref": "AAAAAAGICI7y3GWe5M0="
-									},
-									"name": "Parameter1",
-									"type": "String",
-									"direction": "return"
-								}
-							]
 						},
 						{
 							"_type": "UMLOperation",

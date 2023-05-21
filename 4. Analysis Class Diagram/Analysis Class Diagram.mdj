@@ -173,6 +173,27 @@
 										},
 										{
 											"_type": "UMLOperationView",
+<<<<<<< HEAD
+											"_id": "AAAAAAGICI7y42WhCs0=",
+											"_parent": {
+												"$ref": "AAAAAAGICCXGW2Qcjqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGICI7y3GWe5M0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 29,
+											"top": 116,
+											"width": 681.02734375,
+											"height": 13,
+											"text": "+enterId(userId: String): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+=======
+>>>>>>> SEManager/main
 											"_id": "AAAAAAGICJZQNmWoXss=",
 											"_parent": {
 												"$ref": "AAAAAAGICCXGW2Qcjqo="

@@ -21,9 +21,15 @@
     <ClCompile Include="Member.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Recruit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Member.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Recruit.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

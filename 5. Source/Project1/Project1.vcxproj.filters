@@ -21,7 +21,11 @@
     <ClCompile Include="Member.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Apply.cpp">
+<<<<<<< HEAD
+    <ClCompile Include="CompanyMember.cpp">
+=======
+    <ClCompile Include="Recruit.cpp">
+>>>>>>> SEManager/main
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,8 +33,12 @@
     <ClInclude Include="Member.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Apply.h">
-      <Filter>헤더 파일</Filter>
+<<<<<<< HEAD
+    <ClInclude Include="CompanyMember.h">
+=======
+    <ClInclude Include="Recruit.h">
+>>>>>>> SEManager/main
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

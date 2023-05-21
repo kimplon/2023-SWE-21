@@ -32,7 +32,7 @@ void doTask() {
 	while (!is_program_exit)
 	{
 		// 입력파일에서 메뉴 숫자 2개를 읽기
-		fscanf(in_fp, "%d %d ", &menu_level_1, &menu_level_2);
+		fscanf(in_fp, "%d %d", &menu_level_1, &menu_level_2);
 
 		// 메뉴 구분 및 해당 연산 수행
 		switch (menu_level_1) {

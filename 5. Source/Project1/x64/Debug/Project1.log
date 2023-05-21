@@ -1,9 +1,0 @@
-﻿  Main.cpp
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(18,16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(19,17): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(35,3): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(75,2): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(72,65): warning C4101: 'address' :참조되지 않은 지역 변수입니다.
-C:\Users\KYB\source\SE\5. Source\Project1\Main.cpp(72,7): warning C4101: 'user_type' :참조되지 않은 지역 변수입니다.
-  Member.cpp
-  코드를 생성하고 있습니다...

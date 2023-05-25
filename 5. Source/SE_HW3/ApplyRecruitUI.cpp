@@ -2,10 +2,9 @@
 #include "ApplyRecruit.h"
 /*
 	함수 이름 : ApplyRecruitUI::ApplyRecruitUI
-	기능	  : ApplyRecruitUI의 생성자로 멤버변수를 초기화한다.
-	전달 인자 :
-			   ifstream* inputF  : 파일입출력의 인풋 객체
-			   ofstream* outputF : 파일입출력의 아웃풋 객체
+	기능	  : ApplyRecruitUI의 생성자로 멤버변수에 값을 전달한다.
+	전달 인자 : ifstream* inputF  : 파일입출력의 인풋 객체
+			    ofstream* outputF : 파일입출력의 아웃풋 객체
 	반환값    : 없음
 */
 ApplyRecruitUI::ApplyRecruitUI(ifstream* inputF, ofstream* outputF) : in_fp(inputF), out_fp(outputF) {
@@ -30,7 +29,7 @@ void ApplyRecruitUI::startInterface(string session, int inputType, string& cname
 }
 /*
 	함수 이름 : ApplyRecruitUI::applyForRecurit
-	기능	  : 일반회원이 채용에 지원할 때 호출되는 함수이며, createApply함수를 호출한다.
+	기능	  : 사업자번호를 입력받아 Control에게 넘겨주며 지원 기능을 수행하도록 하고 결과를 출력한다.
 	전달 인자 : string cname : 회사이름
 	반환값    : 없음
 */
@@ -43,9 +42,9 @@ void ApplyRecruitUI::applyForRecruit(string cname) {
 }
 /*
 	함수 이름 : ApplyRecruitUI::searchRecruit
-	기능	  : 채용정보 조회를 요청하는 함수로, showRecruit 함수를 호출한다.
+	기능	  : 회사이름을 입력받아 Control에게 채용정보 조회를 요청하는 기능을 수행한다.
 	전달 인자 : int optype: 채용 정보를 검색할지, 채용 지원할지에 대한 옵션 매개변수이다.
-		  string& companyName : 회사이름
+				string& companyName : 회사이름
 	반환값    : 없음
 */
 void ApplyRecruitUI::searchRecruit(int optype, string& companyName) {
@@ -54,8 +53,12 @@ void ApplyRecruitUI::searchRecruit(int optype, string& companyName) {
 }
 /*
 	함수 이름 : ApplyRecruitUI::showDetail
-	기능	  : 일반회원이 채용조회를 할 때, 채용의 자세한 정보를 출력하는 함수이다.
-	전달 인자 : string taskType : 업무  int headCount: 인원수 string deadLine:채용마감일 string companyName :회사이름 int bnumber : 사업자번호
+	기능	  : 채용 정보의 세부 정보를 가져와 출력하는 기능을 수행한다.
+	전달 인자 : string taskType : 업무  
+				int headCount: 인원수 
+				string deadLine:채용마감일 
+				string companyName :회사이름 
+				int bnumber : 사업자번호
 	반환값    : 없음
 */
 void ApplyRecruitUI::showDetail(string taskType, int headCount, string deadLine, string companyName, int bnumber) {

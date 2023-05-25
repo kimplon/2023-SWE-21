@@ -18,7 +18,7 @@ bool compare(Recruit left, Recruit right) {
 }
 /*
 	함수 이름 : ApplyRecruit::ApplyRecruit
-	기능	  : ApplyRecruit의 생성자로 멤버변수 값을 입력합니다.
+	기능	  : ApplyRecruit의 생성자로 멤버변수 값을 전달합니다.
 	전달 인자 :
 			   ApplyRecruitUI* myUI : ApplyRecruitUI의 객체입니다.
 			   vector<CompanyMember>& cml : 회사회원의 벡터입니다.
@@ -32,13 +32,12 @@ ApplyRecruit::ApplyRecruit(ApplyRecruitUI* myUI, vector<CompanyMember>& cml, vec
 	ui->setControl(this);
 	ui->startInterface(session, inputType, option);
 }
-
 /*
 	함수 이름 : ApplyRecruit::createApply
-	기능	  : 일반회원이 지원을 생성하여 지원 리스트에 넣는 함수이다 .
+	기능	  : 입력받은 값으로 새로운 채용 정보를 생성해 채용 정보 리스트에 저장하는 기능을 수행한다.
 	전달 인자 : string cname : 회사이름
 				int bnum     : 사업자번호
-			   string& paramTaskType : 업무
+			    string& paramTaskType : 업무
 	반환값    : 없음
 */
 
@@ -66,7 +65,7 @@ void ApplyRecruit :: createApply(string cname, int bnum, string& paramTaskType) 
 }
 /*
 	함수 이름 : ApplyRecruit::showRecruit()
-	기능	  : 일반회원이 채용 정보를 검색하는 함수이다.
+	기능	  : 입력받은 회사이름으로 조건에 맞는 채용 정보를 찾아 Boundary로 넘겨주는 기능을 수행한다.
 	전달 인자 : int optype : 채용 정보를 검색할지, 채용 지원할지에 대한 옵션 매개변수이다.
 				string cname : 회사이름
 	반환값    : 없음

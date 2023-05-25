@@ -2,7 +2,7 @@
 #include "RegisterRecruit.h"
 /*
 	함수 이름 : RegisterRecruitUI::RegisterRecruitUI
-	기능	  : RegisterRecruitUI의 생성자로 멤버변수 값을 입력합니다.
+	기능	  : RegisterRecruitUI의 생성자로 멤버변수에 값을 전달합니다.
 	전달 인자 : ifstream* inputF: 파일입출력의 인풋 객체
 				ofstream* outputF: 파일입출력의 아웃풋 객체
 	반환값    : 없음
@@ -23,7 +23,7 @@ void RegisterRecruitUI::startInterface() {
 }
 /*
 	함수 이름 : RegisterRecruitUI::enterDetails
-	기능	  : 채용을 새로 생성하기위한 세부 정보들을 입력받는 함수입니다.
+	기능	  : 등록할 채용 정보의 정보를 입력받고 그 값을 매개변수에 넘겨준 다음 결과를 출력하는 기능을 수행한다.
 	전달 인자 : string& type  : 업무
 				int& count   :	인원수
 				string& time : 마감일

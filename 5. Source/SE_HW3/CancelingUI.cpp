@@ -2,16 +2,15 @@
 #include "CancelingUI.h"
 /*
 	함수 이름 : CancelingUI::CancelingUI
-	기능	  : CancelingUI의 생성자로 멤버변수 값을 입력합니다.
-	전달 인자 :
-		   ifstream* inputF: 파일입출력의 인풋 객체
-		   ofstream* outputF: 파일입출력의 아웃풋 객체
+	기능	  : CancelingUI의 생성자로 멤버변수에 값을 전달합니다.
+	전달 인자 : ifstream* inputF: 파일입출력의 인풋 객체
+			    ofstream* outputF: 파일입출력의 아웃풋 객체
 	반환값    : 없음
 */
 CancelingUI::CancelingUI(ifstream* inputF, ofstream* outputF) : in_fp(inputF), out_fp(outputF) {};
 /*
 	함수 이름 : CancelingUI::setControl
-	기능	  : Boundary와 Control을 연결하는 기능을 수행한다..
+	기능	  : Boundary와 Control을 연결하는 기능을 수행한다.
 	전달 인자 : Canceling* myControl : Canceling 객체
 	반환값    : 없음
 */

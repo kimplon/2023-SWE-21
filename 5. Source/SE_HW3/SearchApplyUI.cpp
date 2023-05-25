@@ -2,7 +2,7 @@
 #include "SearchApply.h"
 /*
 	함수 이름 : SearchApplyUI::SearchApplyUI
-	기능	  : SearchApplyUI의 생성자로 멤버변수를 입력합니다.
+	기능	  : SearchApplyUI의 생성자로 멤버변수에 값을 전달합니다.
 	전달 인자 : ifstream* inputF  : 파일입출력의 인풋 객체
 				ofstream* outputF : 파일입출력의 아웃풋 객체
 	반환값    : 없음
@@ -21,7 +21,7 @@ void SearchApplyUI::startInterface() {
 }
 /*
 	함수 이름 : SearchApplyUI::searchApply
-	기능	  : 일반회원의 지원 정보조회를 하는 showApply함수를 호출합니다.
+	기능	  : 지원 정보 조회 기능을 수행하는 함수를 호출한다.
 	전달 인자 : 없음
 	반환값    : 없음
 */
@@ -30,7 +30,7 @@ void SearchApplyUI :: searchApply() {
 }
 /*
 	함수 이름 : SearchApplyUI::showDetail
-	기능	  : 일반회원의 지원 정보조회의 상세 정보(회사이름, 사업자번호, 업무, 인원수, 채용마감일을 출력해주는 함수이다.
+	기능	  : 전달 받은 값들을 출력하는 기능을 수행한다.
 	전달 인자 : string cname     : 회사이름
 				int bnum         :  사업자번호
 				string taskType   :  업무
